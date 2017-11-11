@@ -1,4 +1,6 @@
-1. edmts_server.py
+## Route Table
+
+### edmts_server.py
  - How to run server?
  ```bash
  python edmts_server.py <port>
@@ -12,7 +14,7 @@
    + Server keep listening any request from client
    + Once a request come, server will analyze the request: if the request = 'Celsius' or 'Fahrenheit', a random Celsius temperature value will be generate then server will send a message 'Edmonton is at <temperature> <Celsius/Fahrenheit> at <current date time>' to client, else server will send a error message 'Wrong format request. The request should be Fahrenheit or Celsius'
 
-2. edmts_client.py
+### edmts_client.py
  - How to run client?
  ```bash
  python edmts_client.py <ip address> <port> <request message> 
